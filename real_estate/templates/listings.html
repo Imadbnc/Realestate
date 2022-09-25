@@ -1,0 +1,6 @@
+{% for listing in listings %}
+
+<img src = "{{listing.image.url}}" alt=""/><br>
+<a href = "/listing/{{listing.id}}"> {{listing.title}}</a><br>
+
+{% endfor %}
